@@ -1,0 +1,100 @@
+.container {
+    max-width: 80vw;
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.404);
+  }
+
+  .table-container {
+    max-height: 60svh;
+    overflow-y: scroll;
+    margin-bottom: 30px;
+  }
+  
+  th, td {
+    padding: 15px;
+    border-bottom: 1px solid #b6b6b6;
+  }
+  
+  th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+    color: #555;
+  }
+
+  th:first-of-type {
+    width: 2vw;
+  }
+
+  th:nth-of-type(4), th:nth-of-type(5) {
+    width: 8vw;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dfdfdf;
+  }
+  
+  tr:hover {
+    background-color: #b5cde7;
+  }
+  
+  form {
+    margin-bottom: 30px;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  form input[type="text"] {
+    width: calc(100% - 24px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  form button {    
+    margin: 5px;
+  }
+  
+  form button.cancel {
+    background-color: #dc3545;
+  }
+  
+  form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .new-task-button {
+    margin: auto;
+  }
+  
